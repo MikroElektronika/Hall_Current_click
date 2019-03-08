@@ -1,0 +1,8 @@
+unit Click_Hall_Current_config;
+
+uses Click_Hall_Current_types;
+
+const
+    _HALLCURRENT_SPI_CFG : array[4] of uint32_t = (_SPI_MASTER_OSC_DIV16, _SPI_DATA_SAMPLE_MIDDLE, _SPI_CLK_IDLE_LOW, _SPI_HIGH_2_LOW); 
+    
+end.
